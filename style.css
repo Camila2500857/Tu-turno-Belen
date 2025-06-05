@@ -1,0 +1,82 @@
+body {
+  font-family: Arial, sans-serif;
+  background-color: #f0f4f8;
+  background-image:url("fondo1.jpeg");
+  background-size:cover;
+  background: position 98px;
+  padding: 40px;
+  text-align: center;
+}
+
+.container, #loginForm, #registerForm, #infoContent {
+  max-width: 400px;
+  margin: 0 auto;
+  background-color: #fff;
+  padding: 25px;
+  border-radius: 10px;
+  box-shadow: 0 2px 10px rgba(0,0,0,0.1);
+  margin-top: 50px;
+}
+
+input, button, select {
+  width: 100%;
+  padding: 12px;
+  margin: 8px 0;
+  border-radius: 8px;
+  border: 1px solid #ccc;
+  box-sizing: border-box;
+  font-size: 16px;
+}
+
+button {
+  background-color: #4CAF50;
+  color: white;
+  border: none;
+  cursor: pointer;
+}
+
+button:hover {
+  background-color: #45a049;
+}
+
+.hidden {
+  display: none;
+}
+
+.turno-box {
+  margin: 20px 0;
+}
+
+.mensaje-turno {
+  margin-top: 10px;
+  color: #2e8b57;
+  font-weight: bold;
+}
+
+#turnosGuardados {
+  margin-top: 20px;
+  font-size: 15px;
+  color: #333;
+}
+
+.logo-bottom-left {
+  background-image:url("logo.jpeg");
+  position:absolute;
+  bottom: 10px;
+  left: 10px;
+  width: 100px;
+  opacity: 0.9;
+}
+
+.cerrar-sesion {
+  background-color: #f44336;
+  color: white;
+  padding: 10px 20px;
+  border: none;
+  border-radius: 6px;
+  cursor: pointer;
+}
+
+.cerrar-sesion:hover {
+  background-color: #d32f2f;
+}
